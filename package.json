@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "serverstart":"nodemon server.js"
+    "serverstart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/carolinefallonlucas/node-api1-project#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nodemon":"^2.0.7"
+    "nodemon": "^2.0.7",
+    "shortid": "^2.2.16"
   }
 }
